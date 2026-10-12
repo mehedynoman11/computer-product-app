@@ -14,7 +14,7 @@ interface INavbar {
 const BannerPage = async () => {
     const category: INavbar[] = await getCategory();
     return (
-        <header>
+        <header className='mt-10'>
             <div className="flex flex-col gap-4">
                 <h1 className='text-4xl font-bold text-center'>Compare Tech Prices Easily</h1>
                 <p className='text-lg font-semibold text-gray-400 text-center'>Find the best deals for CPUs, GPUs, Laptops & Phones across top shops.
